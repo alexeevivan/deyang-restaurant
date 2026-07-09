@@ -1,0 +1,28 @@
+site_name: Deyang Restaurant Project
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+nav:
+  - Home: index.md
+  - Procurement & Equipment: procurement-equipment.md
+  - Service Standarts: service-standarts.md
+  - Financial Management: financial-management.md
+  - Human Resources: human-resources.md
+  - Marketing & PR: marketing-pr.md
+  - Strategy: strategy.md
+  - Open Questions: open-questions.md
+  - Unconnected Cards: unconnected-cards.md
+  - Build Report: build-report.md
